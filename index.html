@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recap Todo App with JS</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="todo.js" defer></script>
+    </head>
+    <body>
+        <div class="bg-gray-200 flex flex-col h-screen justify-center px-8">
+            <h2 class ="p-2 font-bold mb-3 text-3xl">
+                Todo App <br /> with Session Storage</h2>
+            <form class="p-2 roundedd-lg"></form>
+                <input type="text" id="task-input" class="p-2 rounded-lg w-2/3"
+                placeholder="Add new task...">
+                <button type="submit" class="bg-blue-500 text-white py-2 px-4 uppercase font-bold rounded-lg w-1/4">Add</button>
+        </div>
+        
+        <ul id="task-list" class="p-2"></ul>
+
+    </body>
+</html>
